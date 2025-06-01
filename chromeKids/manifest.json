@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Chrome-Kids",
-  "description": "Um ambiente online e seguro para uma criança, fazendo analise-ses de todos os sites e os seus conteudos",
+  "description": "A safe online environment for a child, analyzing all websites and their content.",
   "version": "1.2",
   "background": {
     "service_worker": "background.js"
