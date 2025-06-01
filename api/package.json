@@ -1,0 +1,40 @@
+{
+  "name": "api_chrome_kids",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node build/index.js",
+    "build": "tsup src --out-dir build",
+    "test": "vitest run --dir src/use-cases"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@azure-rest/ai-content-safety": "^1.0.0",
+    "@azure/core-auth": "^1.9.0",
+    "@azure/identity": "^4.5.0",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "fastify": "^5.2.1",
+    "fastify-cors": "^6.0.3",
+    "fastify-plugin": "^5.0.1",
+    "jsdom": "^25.0.1",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^22.10.5",
+    "globals": "^15.14.0",
+    "prettier": "^3.4.2",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.19.1",
+    "vitest": "^3.0.3"
+  }
+}
